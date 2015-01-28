@@ -1,7 +1,18 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+---
+layout: layout
+title: Raman
+---
+{% for nav in site.data.nav.structure %}
+	{% for sub in nav.subsection %}
+	<article id={{ sub }} class="panel">
+		{% capture foo %}{{ sub }}.html{% endcapture %}
+		{% include {{foo}} %}
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	{% endfor %}
+{% endfor %}
+
+

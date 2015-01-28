@@ -1,0 +1,8 @@
+structure:
+- section: Welcome
+  subsection: [Motivation]
+- section: Collecting Procedures
+  subsection: [Preparation, Collecting_Steps, Spectra_Correction, Save]
+- section: Further Analysis
+  subsection: [R, Matlab]
+
