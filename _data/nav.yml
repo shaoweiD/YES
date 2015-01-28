@@ -1,8 +1,8 @@
 structure:
 - section: Welcome
   subsection: [Motivation]
-- section: Collecting Procedures
+- section: Ink Jet Printing
   subsection: [Preparation, Collecting_Steps, Spectra_Correction, Save]
-- section: Further Analysis
+- section: Centrifuge
   subsection: [R, Matlab]
 
