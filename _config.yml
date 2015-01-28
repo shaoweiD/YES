@@ -1,7 +1,7 @@
-name: Young Engineering & Scientists
+name: Raman Spectra Collecting Procedures
 pygments: true
 markdown: rdiscount
-baseurl: /yes
+baseurl: /raman
 permalink: :categories/:title
 rdiscount extensions: [smart]
 
