@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>Raman</title>
+        <link rel="shortcut icon" href="images/icon.png"/>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-responsive.min.css" rel="stylesheet">-->
+        
+
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Custom CSS -->
+        <!--<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">-->
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap-responsive.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">        
+
+    </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body>
+		<div class="navbar navbar-static-top">
+		  <div class="navbar-inner">
+			  <div class="container">
+				<span class="brand pull-left">Raman Spectra Collecting Procedures</span>
+				<ul class="nav" id="top-nav">
+						
+						
+							<li class="  ">
+								<a href="https://shaowei.shinyapps.io/raman_Shiny/" class="" data-toggle=""target="_blank">
+									<i class="fa fa-home fa-fw"></i>
+									
+								</a>
+								
+							</li>
+						
+						
+						
+							<li class="active  ">
+								<a href="" class="" data-toggle=""target="_self">
+									<i class="fa fa-question-circle fa-fw"></i>
+									
+								</a>
+								
+							</li>
+						
+						
+						
+							<li class="  ">
+								<a href="http://www.github.com/shaoweiD" class="" data-toggle=""target="_blank">
+									<i class="fa fa-github fa-fw"></i>
+									
+								</a>
+								
+							</li>
+						
+						
+						
+							<li class=" dropdown ">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"target="_self">
+									<i class="fa fa-envelope fa-fw"></i>
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									<li><a href="http://shaoweiding.com" target="_blank">
+									Shaowei Ding
+									</a></li>
+									
+									
+								</ul>
+							</li>
+						
+						
+						
+						
+				<ul>
+			  </div>
+		  </div>
+		</div>
+		
+
+		
+		<!-- Begin Body -->
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="row-fluid">
+						<div class="span3 well"> 
+						<ul class="nav nav-list" id="sidebar">
+							
+								
+								<li class='nav-header'>Welcome</li>
+								
+									<li class='active'><a class='active' href='#Motivation'>Motivation</a></li>
+								
+								<li class='divider'></li>
+							
+								
+								<li class='nav-header'>Collecting Procedures</li>
+								
+									<li class=''><a class='' href='#Preparation'>Preparation</a></li>
+								
+									<li class=''><a class='' href='#Collecting_Steps'>Collecting_steps</a></li>
+								
+									<li class=''><a class='' href='#Spectra_Correction'>Spectra_correction</a></li>
+								
+									<li class=''><a class='' href='#Save'>Save</a></li>
+								
+								<li class='divider'></li>
+							
+								
+								<li class='nav-header'>Further Analysis</li>
+								
+									<li class=''><a class='' href='#R'>R</a></li>
+								
+									<li class=''><a class='' href='#Matlab'>Matlab</a></li>
+								
+								<li class='divider'></li>
+							
+						</ul>
+						</div>
+						<div class="span9" id="main">
+						
+							
+	
+	<article id=Motivation class="panel">
+		
+		<h2>Motivation</h2>
+
+<p> Raman Spectroscopy is a kind of non-invasive and non-destructive tool that can be applied in many research areas. In this tutorial, detailed instructions will be provided for students in AE 551 class, which help them to collect Raman Spectra and run some simple corrections and analysis.<p/>
+
+<img src="/images/raman.png" align="center" width="50%">
+
+
+
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	
+
+	
+	<article id=Preparation class="panel">
+		
+		<h3>Preparation</h3>
+</ul>
+<p>Preparation is required before taking measurements.</p>
+</ul>
+<li> First, Click the icon "OMNIC for Dispersive Raman" and start the software. </li>
+</ul>
+<li>Second, turn on the laser and warm it for 5 min. This process can be started automatically when user changes the laser mode by clicking "Expt Set" on the control panel.( Expt Set -> Bench -> Laser(Value):"on") </li>
+</ul>
+<img src="/images/laser.PNG" align="center" width="50%">
+</ul>
+<li>Third, turn on the switch of the light source on the table and load your sample. By moving the speciman and adjusting the distance between the selected objective lens and the sample, users can focus the view on the target area through microscope. The focusing method should depend on the state of the sample(liquid or solid).</li>
+<img src="/images/light.PNG" align="center" width="25%">
+</ul>
+<li> Fourth, Click "Window" and open a new working space.</li>
+</ul>
+<img src="/images/window.PNG" align="center" width="50%">
+<li> Fifth, change the parameters through "Expt Set". You can change the exposure time, preview time, Aperture (pinhole or slit) etc., which directly affect the resulting spectrum. All of these settings can be saved as a template. For first time user, you can just proceed with a common template to check the result. </li>
+<img src="/images/template.PNG" align="center" width="50%">
+<
+
+
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	
+	<article id=Collecting_Steps class="panel">
+		
+		<h3>Collecting your first Raman Spectrum</h3>
+
+
+<p> Now you have a clean window to start collecting you first Raman Spectrum. With everything setted up correctly, just simplly click "Col Smp" and a pop-up window will show up, where you can type in a name to record it.</p>
+<img src="/images/name.png" align="center" width="50%">
+<p> When the collection is done, the system will ask if you want to add the newly collected spectrum to the window you opened.</p>
+<img src="/images/finish.png" align="center" width="50%">	
+
+
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	
+	<article id=Spectra_Correction class="panel">
+		
+		<h3>Simple Spectra Correction</h3>
+
+<p> Raman Spectra sometimes are seriously affected by flouresence noise, which is shown as a big bump. In this case, you can use the tool called baseline correction in the process panel. Another scenerio is when the spectra fluctates from an unstedy signal, causing significant peaks get hard to be recognized. Also for further statistic analysis, this fluctution can cause mis-classification. The tool user can select is called "smooth", which is also in the process panel. Furthermore, if you want to compare two spectra for the difference, the function "subtract" can be used to visualize the difference effectively. There are more tools can be used in the process panel to analyze your result. Just click "help" and type in the name of your interested tool, more detailed instructions can be found to assist you.</p>
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	
+	<article id=Save class="panel">
+		
+		<h3>Save</h3>
+
+<p>It is tricky to save your spectra. If you have more than one measured, make sure to select "select all" in the <code>Edit</code>, and then use "save group" in the <code>File</code>. For the format, most frequenly used format is CSV, which can be read into excel.</p> 
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	
+
+	
+	<article id=R class="panel">
+		
+		<h3>R</h3>
+
+
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	
+	<article id=Matlab class="panel">
+		
+		<h3>Matlab</h3>
+
+		<ul class="pager">
+			<li><a id="previous" href="#">← Previous</a></li>
+			<li><a id="next" href="#">Next →</a></li>
+		</ul>
+	</article>
+	
+
+
+
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="assets/javascripts/next_prev.js"></script>
+        <script src="assets/javascripts/active_toggle.js"></script>
+		
+
+        <!-- JavaScript jQuery code from Bootply.com editor -->
+        <script type='text/javascript'>
+        $(document).ready(function() {
+			set_visible();
+			var sidebar = $('#sidebar');
+			sidebar.find('a').click(function(){
+				sidebar.find('.active').toggleClass('active',  400);
+				$(this).parent().toggleClass('active', 400)
+				$(this).toggleClass('active', 400);
+				set_visible();
+			})
+			
+        });
+        </script>
+    </body>
+</html>

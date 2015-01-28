@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>{{ page.title }}</title>
+        <link rel="shortcut icon" href="images/icon.png"/>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-responsive.min.css" rel="stylesheet">-->
+        
+
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Custom CSS -->
+        <!--<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">-->
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap-responsive.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">        
+
+    </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body>
+		<div class="navbar navbar-static-top">
+		  <div class="navbar-inner">
+			  <div class="container">
+				<span class="brand pull-left">{{ site.name }}</span>
+				<ul class="nav" id="top-nav">
+						{% for item in site.links %}
+						{% if item.level == 1 %}
+							<li class="{% if forloop.index == 2 %}active{% endif %} {% if item.type == 'dropdown' %}dropdown{% endif %} ">
+								<a href="{{ item.href }}" class="{% if item.type == 'dropdown' %}dropdown-toggle{% endif %}" data-toggle="{% if item.type == 'dropdown' %}dropdown{% endif %}"target="{{ item.target }}">
+									<i class="fa {{ item.class }} fa-fw"></i>
+									{% if item.type == 'dropdown' %}<b class="caret"></b>{% endif%}
+								</a>
+								{% if item.type == 'dropdown' %}<ul class="dropdown-menu">
+									{% for dd in site.links %}
+									{% if dd.level == 2 && dd.parent == item.name%}
+									<li><a href="{{ dd.href }}" target="{{ dd.target }}">
+									{{ dd.name }}
+									</a></li>
+									{% endif %}
+									{% endfor %}
+								</ul>{% endif%}
+							</li>
+						{% endif %}
+						{% endfor %}
+				<ul>
+			  </div>
+		  </div>
+		</div>
+		
+
+		
+		<!-- Begin Body -->
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="row-fluid">
+						<div class="span3 well"> 
+						<ul class="nav nav-list" id="sidebar">
+							{% for nav in site.data.nav.structure %}
+								{% assign first = forloop.first %}
+								<li class='nav-header'>{{ nav.section }}</li>
+								{% for sub in nav.subsection %}
+									<li class='{% if forloop.first and first %}active{% endif %}'><a class='{% if forloop.first and first %}active{% endif %}' href='#{{ sub }}'>{{ sub | replace: '-', ' ' | capitalize }}</a></li>
+								{% endfor %}
+								<li class='divider'></li>
+							{% endfor %}
+						</ul>
+						</div>
+						<div class="span9" id="main">
+						
+							{{ content }}
+							
+						</div>
+					</div>
+				</div>
+			</div>
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="assets/javascripts/next_prev.js"></script>
+        <script src="assets/javascripts/active_toggle.js"></script>
+		
+
+        <!-- JavaScript jQuery code from Bootply.com editor -->
+        <script type='text/javascript'>
+        $(document).ready(function() {
+			set_visible();
+			var sidebar = $('#sidebar');
+			sidebar.find('a').click(function(){
+				sidebar.find('.active').toggleClass('active',  400);
+				$(this).parent().toggleClass('active', 400)
+				$(this).toggleClass('active', 400);
+				set_visible();
+			})
+			
+        });
+        </script>
+    </body>
+</html>
