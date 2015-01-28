@@ -2,7 +2,7 @@ structure:
 - section: Welcome
   subsection: [Motivation]
 - section: Ink Jet Printing
-  subsection: [Preparation, Collecting_Steps, Spectra_Correction, Save]
+  subsection: [Preparation,Parameters,Printing,Save]
 - section: Centrifuge
-  subsection: [R, Matlab]
+  subsection: [Background,Application]
 
