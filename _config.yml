@@ -6,6 +6,11 @@ permalink: :categories/:title
 rdiscount extensions: [smart]
 
 links:
+- name: ISU-Mechanical Engineering
+  href: http://www.me.iastate.edu/
+  class: fa-home
+  target: _blank
+  level: 1
 - name: github
   href: http://www.github.com/shaoweiD/YES
   class: fa-github
@@ -17,17 +22,13 @@ links:
   target: _self
   level: 2
   type: dropdown
-- name: contact
+- name: Dr.Claussen
   href: 
   class: fa-envelope
   target: _self
   level: 1
   type: dropdown
-- name: ISU-Mechanical Engineering
-  href: http://www.me.iastate.edu/
-  class: fa-home
-  target: _blank
-  level: 1
+
 
 
 
