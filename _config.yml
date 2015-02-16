@@ -10,12 +10,12 @@ links:
   href: http://www.github.com/shaoweiD/YES
   class: fa-github
   target: _blank
-  level: 2
+  level: 1
 - name: contact
   href: http://www.me.iastate.edu/directory/faculty/jonathan-claussen/
   class: fa-envelope
   target: _self
-  level: 1
+  level: 2
   type: dropdown
 - name: ISU-Mechanical Engineering
   href: http://www.me.iastate.edu/
