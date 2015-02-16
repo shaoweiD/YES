@@ -6,33 +6,23 @@ permalink: :categories/:title
 rdiscount extensions: [smart]
 
 links:
-- name: Shiny App
-  href: https://shaowei.shinyapps.io/raman_Shiny/
-  class: fa-home
-  target: _blank
-  level: 1
-- name: help
-  href: ''
-  class: fa-question-circle
-  target: _self
-  level: 1
 - name: github
-  href: http://www.github.com/lee901201/AE551
+  href: http://www.github.com/shaoweiD/YES
   class: fa-github
   target: _blank
   level: 1
 - name: contact
-  href: '#'
+  href: http://www.me.iastate.edu/directory/faculty/jonathan-claussen/
   class: fa-envelope
   target: _self
   level: 1
   type: dropdown
-- name: Shaowei Ding
-  href: http://shaoweiding.com
-  class: ''
+- name: ISU-Mechanical Engineering
+  href: http://www.me.iastate.edu/
+  class: fa-home
   target: _blank
-  level: 2
-  parent: contact
+  level: 1
+
 
 
 
