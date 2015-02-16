@@ -2,7 +2,5 @@ structure:
 - section: Welcome
   subsection: [Motivation]
 - section: Ink Jet Printing
-  subsection: [Preparation,Parameters,Printing,Save]
-- section: Centrifuge
-  subsection: [Background,Application]
+  subsection: [Positioning,Printing,Videos]
 
