@@ -13,9 +13,15 @@ links:
   level: 1
 - name: contact
   href: http://www.me.iastate.edu/directory/faculty/jonathan-claussen/
-  class: fa-envelope
+  class: 
   target: _self
   level: 2
+  type: dropdown
+- name: contact
+  href: 
+  class: fa-envelope
+  target: _self
+  level: 1
   type: dropdown
 - name: ISU-Mechanical Engineering
   href: http://www.me.iastate.edu/
