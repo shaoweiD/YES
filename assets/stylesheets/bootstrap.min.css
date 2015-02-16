@@ -17,6 +17,7 @@
  
  .navbar-inner a {
 	font-size: 2em;
+	color:red;
  }
  
  .navbar-inner .dropdown-menu li a {
