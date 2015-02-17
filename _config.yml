@@ -6,14 +6,14 @@ permalink: :categories/:title
 rdiscount extensions: [smart]
 
 links:
+- name: github
+  href: http://www.github.com/shaoweiD/YES
+  class: fa-github
+  target: _blank
+  level: 1
 - name: ISU-Mechanical Engineering
   href: http://www.me.iastate.edu/
   class: fa-home
-  target: _blank
-  level: 1
-- name: github
-  href: http://www.github.com/shaoweiD/YES
-  class: fa-ask
   target: _blank
   level: 1
 - name: contact
