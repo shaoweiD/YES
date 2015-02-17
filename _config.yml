@@ -13,7 +13,7 @@ links:
   level: 1
 - name: github
   href: http://www.github.com/shaoweiD/YES
-  class: fa-camera
+  class: fa-ask
   target: _blank
   level: 1
 - name: contact
