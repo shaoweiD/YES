@@ -1,5 +1,5 @@
 name: YES program
-pygments: true
+pygments: YES
 markdown: rdiscount
 baseurl: /YES
 permalink: :categories/:title
@@ -16,7 +16,7 @@ links:
   class: fa-home
   target: _blank
   level: 1
-- name: contact
+- name: The Claussen Lab
   href: http://www.me.iastate.edu/directory/faculty/jonathan-claussen/
   class: 
   target: _self
