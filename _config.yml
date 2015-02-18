@@ -1,7 +1,7 @@
 name: YES program
-pygments: true
+pygments: Ture
 markdown: rdiscount
-baseurl: /YES
+baseurl: /Yes
 permalink: :categories/:title
 rdiscount extensions: [smart]
 
