@@ -1,10 +1,9 @@
-name: YES program
-pygments: Ture
+name: Raman Spectra Collecting Procedures
+pygments: true
 markdown: rdiscount
-baseurl: /YES
+baseurl: /raman
 permalink: :categories/:title
 rdiscount extensions: [smart]
-
 links:
 - name: github
   href: http://www.github.com/shaoweiD/YES
