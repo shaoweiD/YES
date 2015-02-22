@@ -1,5 +1,5 @@
 name: YES Program
-pygments: TRUE
+pygments: true
 markdown: rdiscount
 baseurl: /YES
 permalink: :categories/:title
@@ -17,18 +17,18 @@ links:
   class: fa-home
   target: _blank
   level: 1
-- name: Contact
-  href: http://shaoweid.github.io/group.github.io/
-  class: 
-  target: _self
-  level: 2
-  type: dropdown
-- name: Dr.Claussen
-  href: 
+- name: contact
+  href: '#'
   class: fa-envelope
   target: _self
   level: 1
   type: dropdown
+- name: The Claussen Group
+  href: http://shaoweid.github.io/group.github.io/
+  class: ''
+  target: _blank
+  level: 2
+  parent: contact
 
 
 
