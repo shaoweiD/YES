@@ -1,7 +1,7 @@
-name: Raman Spectra Collecting Procedures
+name: YES Program
 pygments: true
 markdown: rdiscount
-baseurl: /raman
+baseurl: /YES
 permalink: :categories/:title
 rdiscount extensions: [smart]
 links:
