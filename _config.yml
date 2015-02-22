@@ -1,9 +1,11 @@
 name: YES Program
-pygments: true
+pygments: TRUE
 markdown: rdiscount
 baseurl: /YES
 permalink: :categories/:title
 rdiscount extensions: [smart]
+
+
 links:
 - name: github
   href: http://www.github.com/shaoweiD/YES
@@ -16,7 +18,7 @@ links:
   target: _blank
   level: 1
 - name: Contact
-  href: http://www.me.iastate.edu/directory/faculty/jonathan-claussen/
+  href: http://shaoweid.github.io/group.github.io/
   class: 
   target: _self
   level: 2
