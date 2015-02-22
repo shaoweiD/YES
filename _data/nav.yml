@@ -2,6 +2,6 @@ structure:
 - section: Welcome
   subsection: [Motivation]
 - section: Ink Jet Printing
-  subsection: [Parameters,Cartridge,Positioning,Videos,Inkjet-printing]
+  subsection: [Parameters,Cartridge,Positioning,Printing,Videos,Inkjet-printing]
 
 
