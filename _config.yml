@@ -1,20 +1,24 @@
-name: YES Program
+name: Raman Spectra Collecting Procedures
 pygments: true
 markdown: rdiscount
-baseurl: /YES
+baseurl: /raman
 permalink: :categories/:title
 rdiscount extensions: [smart]
 
-
 links:
-- name: github
-  href: http://www.github.com/shaoweiD/YES
-  class: fa-github
+- name: Shiny App
+  href: https://shaowei.shinyapps.io/raman_Shiny/
+  class: fa-home
   target: _blank
   level: 1
-- name: ISU-Mechanical Engineering
-  href: http://www.me.iastate.edu/
-  class: fa-home
+- name: help
+  href: ''
+  class: fa-question-circle
+  target: _self
+  level: 1
+- name: github
+  href: http://www.github.com/lee901201/AE551
+  class: fa-github
   target: _blank
   level: 1
 - name: contact
@@ -23,8 +27,8 @@ links:
   target: _self
   level: 1
   type: dropdown
-- name: The Claussen Group
-  href: http://shaoweid.github.io/group.github.io/
+- name: Shaowei Ding
+  href: http://shaoweiding.com
   class: ''
   target: _blank
   level: 2
