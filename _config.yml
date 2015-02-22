@@ -1,5 +1,5 @@
 name: YES Program
-pygments: highlighter
+pygments: true
 markdown: rdiscount
 baseurl: /YES
 permalink: :categories/:title
